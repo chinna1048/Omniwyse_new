@@ -17,7 +17,7 @@ public class SearchInArray {
 	}
 	public static boolean passingTwoArguments(int array[][],int search)
 	{
-		return methodSearching(array,search,0,2);
+		return methodSearching(array,search,0,array.length-1);
 	}
 	public static void main(String... args)
 	{
